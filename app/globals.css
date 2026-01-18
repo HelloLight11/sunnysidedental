@@ -612,6 +612,211 @@ footer {
   text-decoration: underline;
 }
 
+/* About Page - Profile Hero */
+.profile-hero {
+  padding: 8rem 4rem 4rem;
+  background: var(--color-white);
+}
+
+.profile-hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+.profile-content .hero-tag {
+  margin-bottom: 1rem;
+}
+
+.profile-content h1 {
+  font-family: var(--font-display);
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.profile-tagline {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.profile-credentials {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.credential {
+  display: flex;
+  flex-direction: column;
+}
+
+.credential-number {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+.credential-label {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+/* Bio Section */
+.bio-section {
+  padding: 4rem;
+  background: var(--color-bg);
+}
+
+.bio-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bio-inner h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.bio-inner p {
+  color: var(--color-text);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+/* Education Section */
+.education-section {
+  padding: 4rem;
+  background: var(--color-white);
+}
+
+.education-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.education-inner h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.education-card {
+  padding: 2rem;
+  background: var(--color-bg);
+  border-radius: 20px;
+}
+
+.education-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--color-accent-light);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.education-card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+}
+
+.education-card ul {
+  list-style: none;
+}
+
+.education-card li {
+  padding: 0.4rem 0;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.education-card li::before {
+  content: "•";
+  color: var(--color-primary-dark);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Philosophy Section */
+.philosophy-section {
+  padding: 4rem;
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.philosophy-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.philosophy-inner h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.philosophy-item {
+  padding: 1.5rem;
+}
+
+.philosophy-item h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.philosophy-item p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   nav {
@@ -668,5 +873,30 @@ footer {
     padding: 2rem 1.5rem;
     flex-direction: column;
     text-align: center;
+  }
+
+  .profile-hero {
+    padding: 7rem 1.5rem 3rem;
+  }
+
+  .profile-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .profile-image img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .profile-credentials {
+    justify-content: center;
+  }
+
+  .bio-section,
+  .education-section,
+  .philosophy-section {
+    padding: 3rem 1.5rem;
   }
 }

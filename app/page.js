@@ -13,7 +13,7 @@ export default function Home() {
         <Link href="/" className="logo">Sunnyside <span>Dental</span></Link>
         <div className="nav-links">
           <a href="#services" className="nav-link">Services</a>
-          <a href="#about" className="nav-link">About</a>
+          <Link href="/about" className="nav-link">About Dr. Chen</Link>
           <a href="#contact" className="nav-link">Contact</a>
           <a href="#contact" className="nav-cta">Book Now</a>
         </div>
@@ -39,8 +39,8 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80"
-              alt="Happy family with children smiling"
+              src="https://images.unsplash.com/photo-1602520628498-4717c487d0d5?w=800&q=80"
+              alt="Happy family with parents and children smiling"
             />
           </div>
         </div>
@@ -51,8 +51,8 @@ export default function Home() {
         <div className="welcome-inner">
           <div className="welcome-image">
             <img
-              src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&q=80"
-              alt="Modern dental office"
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80"
+              alt="Friendly dentist smiling in modern office"
             />
           </div>
           <div className="welcome-content">
@@ -228,7 +228,7 @@ export default function Home() {
         <Link href="/" className="footer-logo">Sunnyside <span>Dental</span></Link>
         <div className="footer-links">
           <a href="#services">Services</a>
-          <a href="#about">About</a>
+          <Link href="/about">About Dr. Chen</Link>
           <a href="#contact">Contact</a>
         </div>
         <p className="footer-copy">© 2026 Sunnyside Family Dental. All rights reserved.</p>
