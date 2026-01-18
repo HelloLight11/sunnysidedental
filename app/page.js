@@ -14,6 +14,7 @@ export default function Home() {
         <div className="nav-links">
           <a href="#services" className="nav-link">Services</a>
           <Link href="/about" className="nav-link">About Dr. Chen</Link>
+          <Link href="/insurance" className="nav-link">Insurance</Link>
           <a href="#contact" className="nav-link">Contact</a>
           <a href="#contact" className="nav-cta">Book Now</a>
         </div>
@@ -228,6 +229,7 @@ export default function Home() {
         <div className="footer-links">
           <a href="#services">Services</a>
           <Link href="/about">About Dr. Chen</Link>
+          <Link href="/insurance">Insurance</Link>
           <a href="#contact">Contact</a>
         </div>
         <p className="footer-copy">© 2026 Sunnyside Family Dental. All rights reserved.</p>

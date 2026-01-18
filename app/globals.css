@@ -628,6 +628,246 @@ footer {
   text-decoration: underline;
 }
 
+/* Page Header */
+.page-header {
+  padding: 10rem 4rem 4rem;
+  text-align: center;
+  background: var(--color-white);
+}
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.page-header p {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Insurance Page */
+.insurance-intro {
+  padding: 4rem;
+  background: var(--color-bg);
+}
+
+.insurance-intro-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.insurance-intro h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.insurance-intro p {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.insurance-providers {
+  padding: 4rem;
+  background: var(--color-white);
+}
+
+.insurance-providers-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.insurance-providers h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.providers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.provider-card {
+  padding: 1.25rem;
+  background: var(--color-bg);
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.providers-note {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.payment-options {
+  padding: 4rem;
+  background: var(--color-bg);
+}
+
+.payment-options-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.payment-options h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.option-card {
+  padding: 2rem;
+  background: var(--color-white);
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.option-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--color-accent-light);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  margin: 0 auto 1rem;
+}
+
+.option-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.option-card p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.no-insurance {
+  padding: 4rem;
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.no-insurance-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.no-insurance h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.no-insurance > p,
+.no-insurance-inner > p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.no-insurance-list {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.no-insurance-list li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.no-insurance-list .check {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.insurance-faq {
+  padding: 4rem;
+  background: var(--color-white);
+}
+
+.insurance-faq-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.insurance-faq h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+}
+
+.faq-item h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 /* About Page - Profile Hero */
 .profile-hero {
   padding: 8rem 4rem 4rem;
@@ -914,5 +1154,25 @@ footer {
   .education-section,
   .philosophy-section {
     padding: 3rem 1.5rem;
+  }
+
+  .page-header {
+    padding: 7rem 1.5rem 3rem;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .insurance-intro,
+  .insurance-providers,
+  .payment-options,
+  .no-insurance,
+  .insurance-faq {
+    padding: 3rem 1.5rem;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
   }
 }
