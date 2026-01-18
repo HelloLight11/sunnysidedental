@@ -39,8 +39,8 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80"
-              alt="Happy family with parents and kids smiling"
+              src="https://images.unsplash.com/photo-1596977345251-40919c69ded2?w=800&q=80"
+              alt="Family facing camera and smiling"
             />
           </div>
         </div>
@@ -51,8 +51,8 @@ export default function Home() {
         <div className="welcome-inner">
           <div className="welcome-image">
             <img
-              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80"
-              alt="Dentist with patient"
+              src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&q=80"
+              alt="Modern dental office"
             />
           </div>
           <div className="welcome-content">
