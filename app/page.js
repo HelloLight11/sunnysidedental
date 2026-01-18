@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1596977345251-40919c69ded2?w=800&q=80"
+              src="https://images.unsplash.com/photo-1561525155-40a650192479?w=800&q=80"
               alt="Family facing camera and smiling"
             />
           </div>
