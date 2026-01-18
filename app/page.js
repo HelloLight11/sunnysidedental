@@ -22,18 +22,26 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="hero-bg"></div>
-        <div className="hero-content">
-          <span className="hero-tag">Family Dentistry in Austin</span>
-          <h1>Where healthy smiles grow.</h1>
-          <p>We provide gentle, personalized dental care for your whole family in a warm and welcoming environment. From first teeth to golden years.</p>
-          <div className="hero-buttons">
-            <a href="#contact" className="btn-primary">
-              Schedule a Visit
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
-            <a href="tel:+15125551234" className="btn-secondary">Call (512) 555-1234</a>
+        <div className="hero-inner">
+          <div className="hero-content">
+            <span className="hero-tag">Family Dentistry in Austin</span>
+            <h1>Where healthy smiles grow.</h1>
+            <p>We provide gentle, personalized dental care for your whole family in a warm and welcoming environment. From first teeth to golden years.</p>
+            <div className="hero-buttons">
+              <a href="#contact" className="btn-primary">
+                Schedule a Visit
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+              <a href="tel:+15125551234" className="btn-secondary">Call (512) 555-1234</a>
+            </div>
+          </div>
+          <div className="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=800&q=80"
+              alt="Happy family smiling together"
+            />
           </div>
         </div>
       </section>
