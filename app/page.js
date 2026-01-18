@@ -49,7 +49,12 @@ export default function Home() {
       {/* Welcome */}
       <section className="welcome" id="about">
         <div className="welcome-inner">
-          <div className="welcome-image">👨‍👩‍👧‍👦</div>
+          <div className="welcome-image">
+            <img
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80"
+              alt="Dentist with patient"
+            />
+          </div>
           <div className="welcome-content">
             <h2>Your family&apos;s smile is our passion</h2>
             <p>At Sunnyside Family Dental, we believe everyone deserves a healthy, beautiful smile. Dr. Sarah Chen and our caring team have been serving Austin families for over 15 years, building lasting relationships based on trust and exceptional care.</p>
