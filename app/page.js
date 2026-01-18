@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1602520628498-4717c487d0d5?w=800&q=80"
+              src="/images/Family1.jpeg"
               alt="Happy family with parents and children smiling"
             />
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="welcome-inner">
           <div className="welcome-image">
             <img
-              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80"
+              src="/images/Family2.jpeg"
               alt="Friendly dentist smiling in modern office"
             />
           </div>
@@ -232,6 +232,7 @@ export default function Home() {
           <a href="#contact">Contact</a>
         </div>
         <p className="footer-copy">© 2026 Sunnyside Family Dental. All rights reserved.</p>
+        <p className="footer-powered">Powered by <a href="https://launchsmile.com" target="_blank" rel="noopener noreferrer">LaunchSmile</a></p>
       </footer>
     </>
   )

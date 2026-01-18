@@ -598,6 +598,22 @@ footer {
   font-size: 0.85rem;
 }
 
+.footer-powered {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.footer-powered a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-powered a:hover {
+  color: var(--color-primary-dark);
+}
+
 /* Demo Banner */
 .demo-banner {
   background: var(--color-secondary);
