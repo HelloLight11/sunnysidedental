@@ -24,7 +24,6 @@ export default function Home() {
         <div className="hero-bg"></div>
         <div className="hero-inner">
           <div className="hero-content">
-            <span className="hero-tag">Family Dentistry in Austin</span>
             <h1>Where healthy smiles grow.</h1>
             <p>We provide gentle, personalized dental care for your whole family in a warm and welcoming environment. From first teeth to golden years.</p>
             <div className="hero-buttons">
